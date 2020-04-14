@@ -20,8 +20,8 @@
 }
 
 .chats-body {
-  background-image: url("../images/chatBG.png");
-  min-height: 1000vh;
+  background-image: url("../images/pig.jpg");
+  min-height: 200vh;
 }
 
 .chat__write--container {
@@ -107,7 +107,7 @@
 }
 
 .chat-screen .chat__messages {
-  border-top: 1px solid #f7f7f7;
+  /*border-top: 1px solid #f7f7f7;*/
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -120,7 +120,7 @@
   font-size: 12px;
   padding: 5px 10px;
   border-radius: 10px;
-  margin-top: -10px;
+  margin-top: -15px;
   margin-bottom: 20px;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 8px 16px -8px,
     rgba(0, 0, 0, 0.024) 0px -6px 16px -6px;
@@ -171,13 +171,13 @@
 .incoming-message .message__bubble {
   border-bottom-left-radius: 0px;
   color: white;
-  background-image: linear-gradient(to right, #ee9ca7, #ffdde1);
+  background-image: linear-gradient(to right, #d66d75, #e29587);
 }
 
 .sent-message .message__bubble {
   border-bottom-right-radius: 0px;
-  color: white;
-  background-image: linear-gradient(to right, #2c3e50, #bdc3c7);
+  color: rgb(59, 59, 59);
+  background-image: linear-gradient(to right, #fce9f1, #ffeef5);
 }
 
 @keyframes incomingAnimation {
