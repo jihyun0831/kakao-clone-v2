@@ -19,3 +19,7 @@
 .settings .settings__setting:last-child {
   margin-bottom: 0;
 }
+
+.header__backspace i {
+  margin-right: 20px;
+}
