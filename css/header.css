@@ -19,9 +19,17 @@
 .header .header__header-column {
   display: flex;
   align-items: center;
+  font-weight: 700;
+  margin-bottom: -15px;
+  margin-top: -12px;
 }
 
 .header .header__back-btn {
   font-size: 24px;
   margin-right: 20px;
+}
+
+.header__name {
+  padding-left: 10px;
+  font-size: 20px;
 }
